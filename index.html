@@ -10,39 +10,55 @@
     <link rel="stylesheet" href="styles/footer.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="">
-          <img src="" alt="" />
+    <header class="cabecalho">
+      <nav class="cabecalho__navegacao">
+        <a class="cabecalho__navegacao__link" href="index.html">
+          <img src="assets/Frame_6@2x.svg" alt="icone da Alura" />
         </a>
-        <h1>Decodificador</h1>
+        <h1 class="cabecalho__navegacao__titulo">Decodificador</h1>
       </nav>
     </header>
-    <main>
-      <section>
-        <input type="text" placeholder="Digite seu texto" />
-        <div>
-          <div>
-            <img src="" alt="" />
-            <p>Apenas letras minusculas e sem acento</p>
+    <main class="main">
+      <section class="main__section">
+        <input
+          class="section__input"
+          type="text"
+          placeholder="Digite seu texto"
+        />
+        <div class="section__funcoes">
+          <div class="section__observacao">
+            <img
+              class="obersavacao__imagem"
+              src="assets/bi_exclamation-circle-fill@2x.svg"
+              alt="icone de observação"
+            />
+            <p class="obersavcao__texto">
+              Apenas letras minusculas e sem acento
+            </p>
           </div>
-          <div>
-            <button>Criptografar</button>
-            <button>Descriptografar</button>
+          <div class="section_botoes">
+            <button class="botao botao-criptografar">Criptografar</button>
+            <button class="botao botao-descriptografar">Descriptografar</button>
           </div>
         </div>
       </section>
-      <section>
-        <div>
-          <img src="" alt="" />
-          <h2>Nenhuma mensagem encontrada</h2>
-          <p>Digite um texto que você deseja criptografar ou descripografar</p>
+      <section class="main__section">
+        <div class="section__decodificacao">
+          <img
+            class="decodificacao__image"
+            src="assets/High_quality_products_1_1@2x.png"
+            alt="imagem representado uma pessoa com uma lupa analisando um diamante. Ou seja, podemos considerar uma analogia para decodificação ou pesquisa."
+          />
+          <h2 class="decodificacao__sub-titulo">Nenhuma mensagem encontrada</h2>
+          <p class="decodificacao__texto">
+            Digite um texto que você deseja criptografar ou descripografar
+          </p>
         </div>
-        <div>
-          <button>Copiar</button>
+        <div class="section__copiar">
+          <button class="botao-copiar">Copiar</button>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer"></footer>
   </body>
 </html>
