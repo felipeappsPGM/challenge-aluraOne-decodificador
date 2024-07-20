@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+:root {
+  --primary-font: "Inter", sans-serif;
+  --color-primaria: #0a3871;
+  --color-secundaria: #000000;
+  --color-terciaria: #d8dfe8;
+  --color-cinza-forte: #495057;
+  --color-cinza-fraco: #e8e8e8;
+  --color-cinza-fraco: #9b9797;
+}
+
+.cabecalho {
+}
+
+.cabecalho__navegacao {
+  display: flex;
+  padding: 2% 5%;
+  align-items: center;
+}
+
+.cabecalho__navegacao__link {
+}
+
+.cabecalho__navegacao__titulo {
+  font-family: var(--primary-font);
+  font-size: 2.5rem;
+  color: var(--color-primaria);
+  font-weight: 500;
+}

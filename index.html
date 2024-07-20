@@ -19,12 +19,13 @@
       </nav>
     </header>
     <main class="main">
-      <section class="main__section">
-        <input
+      <section class="main__section entrada">
+        <textarea
           class="section__input"
           type="text"
-          placeholder="Digite seu texto"
-        />
+          placeholder="Digite seu texto aqui..."
+          id="texto_entrada"
+        ></textarea>
         <div class="section__funcoes">
           <div class="section__observacao">
             <img
@@ -37,13 +38,17 @@
             </p>
           </div>
           <div class="section_botoes">
-            <button class="botao botao-criptografar">Criptografar</button>
-            <button class="botao botao-descriptografar">Descriptografar</button>
+            <button id="criptografar" class="botao botao-criptografar">
+              Criptografar
+            </button>
+            <button id="descriptografar" class="botao botao-descriptografar">
+              Descriptografar
+            </button>
           </div>
         </div>
       </section>
-      <section class="main__section">
-        <div class="section__decodificacao">
+      <section class="main__section saida">
+        <div id="id_section__decodificacao" class="section__decodificacao">
           <img
             class="decodificacao__image"
             src="assets/High_quality_products_1_1@2x.png"
@@ -54,11 +59,15 @@
             Digite um texto que você deseja criptografar ou descripografar
           </p>
         </div>
-        <div class="section__copiar">
-          <button class="botao-copiar">Copiar</button>
+        <div id="id_section__resultado" class="section__resultado">
+          <p id="text_resultado" class="text__resultado"></p>
+          <div class="div__resultado__copiar">
+            <button id="btn_copiar" class="botao-copiar">Copiar</button>
+          </div>
         </div>
       </section>
     </main>
     <footer class="footer"></footer>
+    <script src="scripts/decodificar.js"></script>
   </body>
 </html>
